@@ -1,0 +1,152 @@
+{
+  "projectName": "ch5-ui-2026",
+  "projectType": "shell-template",
+  "version": "0.0.1",
+  "faviconPath": "favicon.ico",
+  "menuOrientation": "horizontal",
+  "selectedTheme": "light-theme",
+  "useWebXPanel": true,
+  "forceDeviceXPanel": false,
+  "themes": [
+    {
+      "name": "light-theme",
+      "brandLogo": {
+        "url": "./app/template/assets/img/ch5-logo-light.svg",
+        "alt": "Crestron Logo",
+        "receiveStateUrl": ""
+      }
+    },
+    {
+      "name": "dark-theme",
+      "brandLogo": {
+        "url": "./app/template/assets/img/ch5-logo-dark.svg",
+        "alt": "Crestron Logo",
+        "receiveStateUrl": ""
+      }
+    }
+  ],
+  "config": {
+    "controlSystem": {}
+  },
+  "customSignals": {
+    "receiveStateTheme": "templateTheme",
+    "sendEventTheme": "templateTheme",
+    "receiveStateLanguage": "templateLanguage",
+    "sendEventLanguage": "templateLanguage"
+  },
+  "header": {
+    "display": true,
+    "displayInfo": true,
+    "displayTheme": true,
+    "diagnostics": {
+      "logs": {
+        "logAfterProjectLoad": true,
+        "receiveStateLogDiagnostics": "",
+        "logDiagnostics": "none"
+      }
+    },
+    "$component": ""
+  },
+  "footer": {
+    "display": false,
+    "$component": ""
+  },
+  "content": {
+    "$defaultView": "main",
+    "triggerViewProperties": {
+      "gestureable": false,
+      "disableAnimation": true
+    },
+    "pages": [
+      {
+        "pageName": "main",
+        "fullPath": "./app/project/components/pages/main/",
+        "fileName": "main.html",
+        "preloadPage": true,
+        "cachePage": false,
+        "standAloneView": false,
+        "navigation": {
+          "sequence": 2,
+          "label": "main",
+          "isI18nLabel": false,
+          "iconClass": "fas fa-house",
+          "iconUrl": "",
+          "iconPosition": "bottom"
+        },
+        "animation": {
+          "transitionIn": "",
+          "transitionOut": "",
+          "transitionDuration": "1s",
+          "transitionDelay": "0s"
+        }
+      },
+      {
+        "pageName": "laptops",
+        "fullPath": "./app/project/components/pages/laptops/",
+        "fileName": "laptops.html",
+        "preloadPage": true,
+        "cachePage": false,
+        "standAloneView": false,
+        "navigation": {
+          "sequence": 3,
+          "label": "laptops",
+          "isI18nLabel": false,
+          "iconClass": "fas fa-laptop",
+          "iconUrl": "",
+          "iconPosition": "bottom"
+        },
+        "animation": {
+          "transitionIn": "",
+          "transitionOut": "",
+          "transitionDuration": "1s",
+          "transitionDelay": "0s"
+        }
+      },
+      {
+        "pageName": "appletv",
+        "fullPath": "./app/project/components/pages/appletv/",
+        "fileName": "appletv.html",
+        "preloadPage": true,
+        "cachePage": false,
+        "standAloneView": false,
+        "navigation": {
+          "sequence": 4,
+          "label": "appletv",
+          "isI18nLabel": false,
+          "iconClass": "fas fa-tv",
+          "iconUrl": "",
+          "iconPosition": "bottom"
+        },
+        "animation": {
+          "transitionIn": "",
+          "transitionOut": "",
+          "transitionDuration": "1s",
+          "transitionDelay": "0s"
+        }
+      },
+      {
+        "pageName": "lights",
+        "fullPath": "./app/project/components/pages/lights/",
+        "fileName": "lights.html",
+        "preloadPage": true,
+        "cachePage": false,
+        "standAloneView": false,
+        "navigation": {
+          "sequence": 5,
+          "label": "lights",
+          "isI18nLabel": false,
+          "iconClass": "fas fa-lightbulb",
+          "iconUrl": "",
+          "iconPosition": "bottom"
+        },
+        "animation": {
+          "transitionIn": "",
+          "transitionOut": "",
+          "transitionDuration": "1s",
+          "transitionDelay": "0s"
+        }
+      }
+    ],
+    "widgets": []
+  }
+}
